@@ -9,6 +9,8 @@ Version: The latest firmware -- 1.02B03 (Download link: http://support.dlink.com
 
 Vulnerability Type: Command Injection
 
+Author:David Chen
+
 Institution: 360 Enterprise Security Group
 
 Vulnerability description
@@ -22,12 +24,12 @@ The str2 variable is from "Address" parameter, and the str variable is a string 
 POC
 -------------------------
 
-First, attacker need to call "SetNetworkTomographySettings" fuction that setting "Address" value, for example, you can set value as ";ps":
+First, attacker need to call "SetNetworkTomographySettings" fuction that setting "Address" value. For example, you can set value as ";ps":
 
 ![image](https://github.com/leonW7/D-Link/blob/master/1.png)
 ![image](https://github.com/leonW7/D-Link/blob/master/6.png)
 
-Second, attacker can call "GetNetworkTomographyResult" that executes OS commands embedded in "Address" parameter, this PoC can result in a RCE, as below:
+Second, attacker can call "GetNetworkTomographyResult" that executes OS commands embedded in "Address" parameter, this PoC can result in a RCE that executes a "ps" command at router as below:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/2.png)
 
