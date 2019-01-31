@@ -19,7 +19,7 @@ Command Injection vulnerability on D-Link DIR-823G V 1.02B03 and earlier version
 
 ![image](https://github.com/leonW7/D-Link/blob/master/5.png)
 
-The str2 variable is from "Address" parameter, and the str variable is a string formed as this pattern "ping str2 -c %d -w %d -s %d  > /tmp/ping.txt 2>>/tmp/ping.txt", so if attacker can control input of str2 and will execute any command.
+The str2 variable is from "Address" parameter, and the str variable is a string formed as this pattern "ping str2 -c %d -w %d -s %d  > /tmp/ping.txt 2>>/tmp/ping.txt", so if someone can control the input of str2, they will execute any command.
 
 POC
 -------------------------
