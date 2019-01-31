@@ -9,7 +9,7 @@ Version: The latest firmware -- 1.02B03 (Download link: http://support.dlink.com
 
 Vulnerability Type: Command Injection
 
-Author:David Chen
+Author: David Chen
 
 Institution: 360 Enterprise Security Group
 
