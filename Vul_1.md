@@ -11,17 +11,20 @@ Institution: 360 Enterprise Security Group
 
 Vulnerability description
 -------------------------
-Command Injection vulnerability on D-Link DIR-823G V 1.02B03 and earlier version allows attacker to execute arbitrary OS commands via a crafted /HNAP1 request. This occurs because the "GetNetworkTomographyResult" function executes a system function with untrusted input.
+Command Injection vulnerability on D-Link DIR-823G V 1.02B03 and earlier version allows attacker to execute arbitrary OS commands via a crafted /HNAP1 request. This occurs because one SOAP function named "GetNetworkTomographyResult" executes a system function with untrusted input.
 
-![image](https://github.com/zsjevilhex/iot/blob/master/route/tenda/tenda-01/image.png)
+![image](https://github.com/leonW7/D-Link/blob/master/5.png)
 
 
 POC
 -------------------------
 
-![image](https://github.com/zsjevilhex/iot/blob/master/route/tenda/tenda-01/poc.jpeg)
+First, attacker need to call "SetNetworkTomographySettings" fuction that setting domain name, as below:
 
-This PoC can result in a RCE. 
+![image](https://github.com/leonW7/D-Link/blob/master/1.png)
 
+Second, attacker can call "GetNetworkTomographyResult" that executes OS commands embedded in domain name, this PoC can result in a RCE, as below:
 
-p.s.Given the vendor's security, we only provide parts of the URL.
+![image](https://github.com/leonW7/D-Link/blob/master/2.png)
+
+p.s.Given the vendor's security, we only provide parts of this exploit.
