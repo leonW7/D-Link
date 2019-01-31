@@ -31,6 +31,6 @@ First, attacker need to call "SetNetworkTomographySettings" fuction that setting
 
 Second, attacker can call "GetNetworkTomographyResult" that executes OS commands embedded in "Address" parameter, this PoC can result in a RCE that executes a "ps" command at router as below:
 
-![image](https://github.com/leonW7/D-Link/blob/master/2.png)
+![image](https://github.com/leonW7/D-Link/blob/master/22.png)
 
 p.s.Given the vendor's security, we only provide parts of this exploit.
