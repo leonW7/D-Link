@@ -14,14 +14,16 @@ Vulnerability description
 Command Injection vulnerability on D-Link DIR-823G V 1.02B03 and earlier version allows attacker to execute arbitrary OS commands via a crafted /HNAP1 request. This occurs because one SOAP function named "GetNetworkTomographyResult" executes system function with an untrusted input parameter "Address". The details are as below:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/5.png)
-![image](https://github.com/leonW7/D-Link/blob/master/6.png)
+
+The str2 variable is from "Address" parameter.
 
 POC
 -------------------------
 
-First, attacker need to call "SetNetworkTomographySettings" fuction that setting domain name, as below:
+First, attacker need to call "SetNetworkTomographySettings" fuction that setting "Address" value, as below:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/1.png)
+![image](https://github.com/leonW7/D-Link/blob/master/6.png)
 
 Second, attacker can call "GetNetworkTomographyResult" that executes OS commands embedded in domain name, this PoC can result in a RCE, as below:
 
