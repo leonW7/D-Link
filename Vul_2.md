@@ -33,4 +33,4 @@ This PoC can result in a RCE that opens telnet service at router as below:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/2-4.png)
 
-p.s.Given the vendor's security, we only provide parts of this exploit.
+P.S. Given the vendor's security, we only provide parts of this exploit.
