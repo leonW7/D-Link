@@ -20,7 +20,7 @@ An issue was discovered in /bin/goahead on D-Link DIR-823G with latest firmware 
 POC
 -------------------------
 
-Attacker just need to call a HNAP API GetClientInfo remotely and get all clients information in WLAN, such as IPAddresses、MacAddress、DeviceName, etc..
+Attacker just need to call a HNAP API GetClientInfo remotely and get all clients information in WLAN, such as IPAddresses, MacAddress, DeviceName, etc..
 
 ![image](https://github.com/leonW7/D-Link/blob/master/3-1.png)
 ![image](https://github.com/leonW7/D-Link/blob/master/3-2.png)
