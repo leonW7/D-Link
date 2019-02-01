@@ -29,7 +29,7 @@ Headers:
 Body:
 ![image](https://github.com/leonW7/D-Link/blob/master/5-2.png)
 
-This PoC can result in a DOS as below, you can see that the router need to set again after exploit:
+This PoC can result in a change of DNS server as below, you can see that the DNS server is set to "192.168.3.1" after exploit:
 
 Before exploit:
 ![image](https://github.com/leonW7/D-Link/blob/master/5-3.png)
