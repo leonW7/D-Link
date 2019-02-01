@@ -33,4 +33,4 @@ Second, attacker can call "GetNetworkTomographyResult" that executes OS commands
 
 ![image](https://github.com/leonW7/D-Link/blob/master/22.png)
 
-p.s.Given the vendor's security, we only provide parts of this exploit.
+P.S. Given the vendor's security, we only provide parts of this exploit.
