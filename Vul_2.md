@@ -15,7 +15,7 @@ Institution: 360 Enterprise Security Group
 
 Vulnerability description
 -------------------------
-An issue was discovered on D-Link DIR-823G devices with firmware through 1.02B03. A command Injection vulnerability allows attackers to execute arbitrary OS commands via shell metacharacters in a crafted /HNAP1 request. This occurs when the entry point function of HNAP calls the system function with an untrusted input that is from request body directly. Consequently, an attacker can execute any command remotely when they control this input. The details are as below:
+An issue was discovered on D-Link DIR-823G devices with firmware through 1.02B03. A command Injection vulnerability allows attackers to execute arbitrary OS commands via a crafted /HNAP1 request. This occurs when any HNAP API function triggers a call to the system function with untrusted input from the request body, such as a body of '`/bin/telnetd`' for the GetDeviceSettingsset API function. Consequently, an attacker can execute any command remotely when they control this input. The details are as below:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/2-1.png)
 
@@ -24,7 +24,7 @@ The v4 variable is from request body, and when system function is called, input 
 POC
 -------------------------
 
-Attacker just need to call any HNAP API fuction remotely that is formed with request body embedded OS commands. For example, you can call "GetDeviceSettingsset" API and set request body as ’`/bin/telnetd`’:
+Attacker just need to call any HNAP API fuction remotely that is formed with request body embedded OS commands. For example, you can call "GetDeviceSettingsset" API and set request body as '`/bin/telnetd`':
 
 ![image](https://github.com/leonW7/D-Link/blob/master/2-2.png)
 ![image](https://github.com/leonW7/D-Link/blob/master/2-3.png)
