@@ -15,22 +15,22 @@ Institution: 360 Enterprise Security Group
 
 Vulnerability description
 -------------------------
-Command Injection vulnerability on D-Link DIR-823G V 1.02B03 and earlier version allows attacker to execute arbitrary OS commands via a crafted /HNAP1 request. This occurs because one SOAP function named "GetNetworkTomographyResult" executes system function with an untrusted input parameter "Address". The details are as below:
+An issue was discovered on D-Link DIR-823G devices with firmware through 1.02B03. A command Injection vulnerability allows attackers to execute arbitrary OS commands via shell metacharacters in a crafted /HNAP1 request. This occurs when the entry point function of HNAP calls the system function with an untrusted input that is from request body directly. Consequently, an attacker can execute any command remotely when they control this input. The details are as below:
 
-![image](https://github.com/leonW7/D-Link/blob/master/5.png)
+![image](https://github.com/leonW7/D-Link/blob/master/2-1.png)
 
-The str2 variable is from "Address" parameter, and the str variable is a string formed as this pattern "ping str2 -c %d -w %d -s %d  > /tmp/ping.txt 2>>/tmp/ping.txt", so if someone can control the input of str2, they will execute any command.
+The v4 variable is from request body, and when system function is called, input variable str3 is a string formed as this pattern "echo v4 >/var/hnaplog", so if someone can control the input of v4, they will execute any command.
 
 POC
 -------------------------
 
-First, attacker need to call "SetNetworkTomographySettings" fuction that setting "Address" value. For example, you can set value as ";ps":
+Attacker just need to call any HNAP API fuction remotely that is formed with request body embedded OS commands. For example, you can call "GetDeviceSettingsset" API and set request body as ’`/bin/telnetd`’:
 
-![image](https://github.com/leonW7/D-Link/blob/master/1.png)
-![image](https://github.com/leonW7/D-Link/blob/master/6.png)
+![image](https://github.com/leonW7/D-Link/blob/master/2-2.png)
+![image](https://github.com/leonW7/D-Link/blob/master/2-3.png)
 
-Second, attacker can call "GetNetworkTomographyResult" that executes OS commands embedded in "Address" parameter, this PoC can result in a RCE that executes a "ps" command at router as below:
+This PoC can result in a RCE that opens telnet service at router as below:
 
-![image](https://github.com/leonW7/D-Link/blob/master/22.png)
+![image](https://github.com/leonW7/D-Link/blob/master/2-4.png)
 
 p.s.Given the vendor's security, we only provide parts of this exploit.
