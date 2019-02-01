@@ -15,7 +15,7 @@ Institution: 360 Enterprise Security Group
 
 Vulnerability description
 -------------------------
-An issue was discovered in /bin/goahead on D-Link DIR-823G with latest firmware 1.02B03. There is a incorrect access control problem allowing remote attackers to get sensitive information of all clients in WLAN without authentication via access a HNAP API named GetClientInfo. 
+An issue was discovered in /bin/goahead on D-Link DIR-823G with the latest firmware 1.02B03. There is a incorrect access control problem allowing remote attackers to get sensitive information of all clients in WLAN without authentication via access a HNAP API named GetClientInfo. 
 
 POC
 -------------------------
