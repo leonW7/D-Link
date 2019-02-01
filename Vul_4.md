@@ -22,7 +22,11 @@ POC
 
 Attacker should call a HNAP API SetFactoryDefault remotely and reset router to factory defaults immediately. Attacker just need to send a POST request as below:
 
+Headers:
+
 ![image](https://github.com/leonW7/D-Link/blob/master/4-1.png)
+
+Body:
 ![image](https://github.com/leonW7/D-Link/blob/master/4-2.png)
 
 This PoC can result in a DOS, you can the router need to set again as below:
