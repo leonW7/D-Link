@@ -29,7 +29,7 @@ Headers:
 Body:
 ![image](https://github.com/leonW7/D-Link/blob/master/4-2.png)
 
-This PoC can result in a DOS, you can the router need to set again as below:
+This PoC can result in a DOS as below, you can see that the router need to set again after exploit:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/4-3.png)
 
