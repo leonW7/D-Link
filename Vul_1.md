@@ -15,7 +15,7 @@ Institution: 360 Enterprise Security Group
 
 Vulnerability description
 -------------------------
-Command Injection vulnerability on D-Link DIR-823G V 1.02B03 and earlier version allows attacker to execute arbitrary OS commands via a crafted /HNAP1 request. This occurs because one SOAP function named "GetNetworkTomographyResult" executes system function with an untrusted input parameter "Address". The details are as below:
+An issue was discovered on D-Link DIR-823G devices with firmware through 1.02B03. A command Injection vulnerability allows attackers to execute arbitrary OS commands via shell metacharacters in a crafted /HNAP1 request. This occurs when the GetNetworkTomographyResult function calls the system function with an untrusted input parameter named Address. Consequently, an attacker can execute any command remotely when they control this input. The details are as below:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/5.png)
 
