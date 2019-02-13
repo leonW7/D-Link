@@ -1,2 +1,2 @@
 # D-Link
-Vulnerabilitys for D-Link Router
+Some vulnerabilities for D-Link router
