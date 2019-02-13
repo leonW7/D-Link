@@ -1,5 +1,5 @@
 # D-Link
-Vulnerabilitys for D-Link Router
+Some vulnerabilities for D-Link router
 
 Product: D-Link DIR823G  (Refer http://www.dlink.com.cn/home/product?id=2960)
 
