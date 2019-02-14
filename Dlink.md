@@ -11,4 +11,4 @@ Types: RCE、InfoLeak、DoS、PoE
 * [CVE-2019-7298](./Vul_2.md) Command Injection
 * [CVE-2019-7388](./Vul_3.md) Incorrect Access Control
 * [CVE-2019-7389](./Vul_4.md) Incorrect Access Control
-* [CVE-2019-8316](./Vul_5.md) Incorrect Access Control
+* [CVE-2019-7390](./Vul_5.md) Incorrect Access Control
