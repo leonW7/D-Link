@@ -24,12 +24,12 @@ The str2 variable is from "Address" parameter, and the str variable is a string 
 POC
 -------------------------
 
-First, attacker need to call "SetNetworkTomographySettings" fuction that setting "Address" value. For example, you can set value as ";ps":
+Step1: Attacker need to call "SetNetworkTomographySettings" fuction that setting "Address" value. For example, you can set value as ";ps":
 
 ![image](https://github.com/leonW7/D-Link/blob/master/1.png)
 ![image](https://github.com/leonW7/D-Link/blob/master/6.png)
 
-Second, attacker can call "GetNetworkTomographyResult" that executes OS commands embedded in "Address" parameter, this PoC can result in a RCE that executes a "ps" command at router as below:
+Step2: Attacker should call "GetNetworkTomographyResult" that executes OS commands embedded in "Address" parameter, this PoC can result in a RCE that executes a "ps" command at router as below:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/22.png)
 
