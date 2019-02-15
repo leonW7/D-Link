@@ -8,6 +8,10 @@ Version: The latest firmware -- 1.02B03 (http://support.dlink.com.cn/ProductInfo
 
 Types: RCE、InfoLeak、DoS、PoE
 
+Author: David Chen
+
+Institution: 360 ESG Institute of Security Research
+
 * [CVE-2019-7297](./Vul_1.md) Command Injection
 * [CVE-2019-7298](./Vul_2.md) Command Injection
 * [CVE-2019-7388](./Vul_3.md) Incorrect Access Control
