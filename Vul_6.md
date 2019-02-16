@@ -20,7 +20,7 @@ An issue was discovered in /bin/goahead on D-Link DIR-823G devices with firmware
 POC
 -------------------------
 
-Attacker should call a HNAP API SetWLanRadioSettings remotely and enable Guest WiFi on router immediately. Attacker just need to send a POST request as below:
+Attacker should call a HNAP API SetWLanRadioSettings remotely and enable a Guest WiFi on router immediately. Attacker just need to send a POST request setting some parameters such as RadioID,Enabled.., The Details are as blew:
 
 Headers:
 
