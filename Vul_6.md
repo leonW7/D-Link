@@ -29,7 +29,7 @@ Headers:
 Body:
 ![image](https://github.com/leonW7/D-Link/blob/master/6-2.png)
 
-This PoC can enable an Guest WiFi named "D-Link_DIR-823G_Guest" with no password default as bleow:
+This PoC can enable an Guest WiFi on 2.4GHz named "D-Link_DIR-823G_Guest" with no password default as bleow:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/6-3.png)
 
