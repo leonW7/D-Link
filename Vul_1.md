@@ -19,8 +19,8 @@ An issue was discovered on D-Link DIR-823G devices with firmware through 1.02B03
 
 ![image](https://github.com/leonW7/D-Link/blob/master/5.png)
 
-The str2 variable is from "Address" parameter, and the str variable is a string formed as this pattern 
-###"ping str2 -c %d -w %d -s %d  > /tmp/ping.txt 2>>/tmp/ping.txt", 
+The str2 variable is from "Address" parameter, and the str variable is a string formed as bleow:
+### ping str2 -c %d -w %d -s %d  > /tmp/ping.txt 2>>/tmp/ping.txt
 so if someone can control the input of str2, they will execute any command.
 
 POC
