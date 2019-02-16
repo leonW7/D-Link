@@ -20,17 +20,17 @@ An issue was discovered in /bin/goahead on D-Link DIR-823G devices with firmware
 POC
 -------------------------
 
-Attacker should call a HNAP API SetWanSettings remotely and enable Guest WiFi on router immediately. Attacker just need to send a POST request as below:
+Attacker should call a HNAP API SetWLanRadioSettings remotely and enable Guest WiFi on router immediately. Attacker just need to send a POST request as below:
 
 Headers:
 
-![image](https://github.com/leonW7/D-Link/blob/master/5-1.png)
+![image](https://github.com/leonW7/D-Link/blob/master/6-1.png)
 
 Body:
-![image](https://github.com/leonW7/D-Link/blob/master/5-2.png)
+![image](https://github.com/leonW7/D-Link/blob/master/6-2.png)
 
-This PoC can enable Guest WiFi with no password default after exploit:
+This PoC can enable an Guest WiFi named "D-Link_DIR-823G_Guest" with no password default as bleow:
 
-![image](https://github.com/leonW7/D-Link/blob/master/5-4.png)
+![image](https://github.com/leonW7/D-Link/blob/master/6-3.png)
 
 P.S. Given the vendor's security, we only provide parts of this exploit.
