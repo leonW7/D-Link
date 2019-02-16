@@ -1,4 +1,4 @@
-# D-Link SetWanSettings DNS-Hijack
+# D-Link SetWLanRadioSettings Guest-WiFi enable
 Vulnerability for D-Link Router
 
 Product: D-Link DIR-823G  (Refer: http://www.dlink.com.cn/home/product?id=2960)
@@ -15,12 +15,12 @@ Institution: 360 Enterprise Security Group
 
 Vulnerability description
 -------------------------
-An issue was discovered in /bin/goahead on D-Link DIR-823G with latest firmware 1.02B03. There is a incorrect access control problem allowing remote attackers to hijack DNS of all clients in WLAN without authentication via access a HNAP API named SetWanSettings.  
+An issue was discovered in /bin/goahead on D-Link DIR-823G devices with firmware 1.02B03. There is incorrect access control allowing remote attackers to enable the Guest WiFi on router with no password default, without authentication, via the SetWLanRadioSettings HNAP API.  
 
 POC
 -------------------------
 
-Attacker should call a HNAP API SetWanSettings remotely and set DNS server of router immediately. Attacker just need to send a POST request as below:
+Attacker should call a HNAP API SetWanSettings remotely and enable Guest WiFi on router immediately. Attacker just need to send a POST request as below:
 
 Headers:
 
@@ -29,12 +29,8 @@ Headers:
 Body:
 ![image](https://github.com/leonW7/D-Link/blob/master/5-2.png)
 
-This PoC can result in a change of DNS server as below, you can see that the DNS server is set to "192.168.3.1" after exploit:
+This PoC can enable Guest WiFi with no password default after exploit:
 
-Before exploit:
-![image](https://github.com/leonW7/D-Link/blob/master/5-3.png)
-
-After exploit:
 ![image](https://github.com/leonW7/D-Link/blob/master/5-4.png)
 
 P.S. Given the vendor's security, we only provide parts of this exploit.
