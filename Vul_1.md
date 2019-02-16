@@ -26,7 +26,7 @@ POC
 
 Step1: Attacker need to call "SetNetworkTomographySettings" fuction that setting "Address" value. For example, you can set value as ";ps":
 
-![image](https://github.com/leonW7/D-Link/blob/master/1.png)
+![image](https://github.com/leonW7/D-Link/blob/master/11.png)
 ![image](https://github.com/leonW7/D-Link/blob/master/6.png)
 
 Step2: Attacker should call "GetNetworkTomographyResult" that executes OS commands embedded in "Address" parameter, this PoC can result in a RCE that executes a "ps" command at router as below:
