@@ -11,7 +11,7 @@ Vulnerability Type: Incorrect Access Control
 
 Author: David Chen
 
-Institution: 360 Enterprise Security Group
+Institution: 360 ESG Institute of Security Research
 
 Vulnerability description
 -------------------------
