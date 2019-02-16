@@ -15,7 +15,7 @@ Institution: 360 ESG Institute of Security Research
 
 Vulnerability description
 -------------------------
-An issue was discovered in /bin/goahead on D-Link DIR-823G devices with firmware 1.02B03. There is incorrect access control allowing remote attackers to enable the Guest WiFi on router with no password default, without authentication, via the SetWLanRadioSettings HNAP API.  
+An issue was discovered in /bin/goahead on D-Link DIR-823G devices with firmware 1.02B03. There is incorrect access control allowing remote attackers to enable an Guest WiFi on router with no password default, without authentication, via the SetWLanRadioSettings HNAP API.  
 
 POC
 -------------------------
