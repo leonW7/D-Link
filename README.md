@@ -17,3 +17,4 @@ Institution: 360 ESG Institute of Security Research
 * [CVE-2019-7388](./Vul_3.md) Incorrect Access Control
 * [CVE-2019-7389](./Vul_4.md) Incorrect Access Control
 * [CVE-2019-7390](./Vul_5.md) Incorrect Access Control
+* [CVE-2019-8392](./Vul_6.md) Incorrect Access Control
