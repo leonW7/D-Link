@@ -26,5 +26,5 @@ Normal manager interface:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/7-2.png)
 
-Visit http://192.168.0.1/index.asp without authentication:
+Attacker can visit http://192.168.0.1/index.asp without authentication，and manager this router as admin:
 ![image](https://github.com/leonW7/D-Link/blob/master/7-3.png)
