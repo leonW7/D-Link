@@ -1,4 +1,4 @@
-# D-Link SetWanSettings DNS-Hijack
+# DIR-823G SetWanSettings DNS-Hijack
 Vulnerability for D-Link Router
 
 Product: D-Link DIR-823G  (Refer: http://www.dlink.com.cn/home/product?id=2960)
