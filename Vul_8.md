@@ -15,7 +15,7 @@ Institution: 360 ESG Institute of Security Research (360ESGR)
 
 Vulnerability description
 -------------------------
-An issue was discovered in the manager interface on D-Link DIR-816 devices with firmware 1.10B05. There is a incorrect access control problem allowing remote attackers to get sensitive informations without authentication.
+An issue was discovered in the web manager interface on D-Link DIR-816 devices with firmware 1.10B05. There is a incorrect access control problem allowing remote attackers to get sensitive informations without authentication.
 
 POC
 -------------------------
