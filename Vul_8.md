@@ -24,7 +24,7 @@ Step1: Attacker can visit /index.asp directly without authentication and get the
 
 ![image](https://github.com/leonW7/D-Link/blob/master/8.png)
 
-Step2: In the maintain page, config information can save into a file named config.img as bleow:
+Step2: In the maintain page, attacker can get config information and save into a file named config.img as bleow:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/8-1.png)
 
