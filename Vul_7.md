@@ -2,9 +2,9 @@
 Vulnerability for D-Link Router
 
 Product: 
-* [DIR-816](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
+[DIR-816](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
 
-Version: The latest firmware -- 1.02B03 (Download link: http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-823G)
+Version: The latest firmware [Rev.A2 1.10B05](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
 
 ![image](https://github.com/leonW7/D-Link/blob/master/4.png)
 
@@ -16,7 +16,7 @@ Institution: 360 ESG Institute of Security Research
 
 Vulnerability description
 -------------------------
-An issue was discovered in /bin/goahead on D-Link DIR-823G devices with firmware 1.02B03. There is incorrect access control allowing remote attackers to enable a Guest WiFi on router with no password default, without authentication, via the SetWLanRadioSettings HNAP API.  
+An issue was discovered in /bin/goahead on D-Link DIR-823G devices with firmware 1.02B03. There is incorrect access control allowing remote attackers to enable a Guest WiFi on router with no password default, without authentication, via the SetWLanRadioSettings HNAP API.  1.02B03
 
 POC
 -------------------------
