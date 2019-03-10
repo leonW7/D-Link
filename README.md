@@ -14,7 +14,7 @@ Types: RCE、InfoLeak、DoS、EoP
 
 Author: David Chen
 
-Institution: 360 ESG Institute of Security Research(360 ESGR)
+Institution: 360 ESG Institute of Security Research (360 ESGR)
 
 * [CVE-2019-7297](./Vul_1.md) Command Injection
 * [CVE-2019-7298](./Vul_2.md) Command Injection
