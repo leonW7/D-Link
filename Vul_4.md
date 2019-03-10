@@ -1,4 +1,4 @@
-# D-Link SetFactoryDefault DoS
+# DIR-823G SetFactoryDefault DoS
 Vulnerability for D-Link Router
 
 Product: D-Link DIR-823G  (Refer: http://www.dlink.com.cn/home/product?id=2960)
