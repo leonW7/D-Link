@@ -2,9 +2,13 @@
 
 Some vulnerabilities for D-Link router
 
-Product: D-Link DIR-823G  (Refer http://www.dlink.com.cn/home/product?id=2960)
+Product: 
 
-Version: The latest firmware -- 1.02B03 (http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-823G)
+* DIR-823G  (Refer http://www.dlink.com.cn/home/product?id=2960)
+  The latest firmware -- A1 1.02B03 (http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-823G)
+
+* DIR-816  (http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
+  The latest firmware -- A2 1.02B03 (http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
 
 Types: RCE、InfoLeak、DoS、EoP
 
