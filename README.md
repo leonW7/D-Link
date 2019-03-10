@@ -2,7 +2,7 @@
 
 Some vulnerabilities for D-Link router.
 
-Product and Firmware: 
+Product and Firmware Version: 
 
 * [DIR-823G](http://www.dlink.com.cn/home/product?id=2960)
   [Rev.A1 1.02B03](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-823G)
