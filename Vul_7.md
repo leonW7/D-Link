@@ -6,7 +6,7 @@ Product:
 
 Version: The latest firmware [Rev.A2 1.10B05](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
 
-![image](https://github.com/leonW7/D-Link/blob/master/4.png)
+![image](https://github.com/leonW7/D-Link/blob/master/7-1.png)
 
 Vulnerability Type: Incorrect Access Control
 
