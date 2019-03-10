@@ -20,14 +20,14 @@ An issue was discovered in the web manager interface on D-Link DIR-816 devices w
 POC
 -------------------------
 
-Step1: Attacker can visit **/index.asp** directly without authentication and get the maintain page in the manager interface immediately. The Details are as blew:
+**Step1**: Attacker can visit **/index.asp** directly without authentication and get the maintain page in the manager interface immediately. The Details are as blew:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/8.png)
 
-Step2: In the maintain page, attacker can get config informations and save into a file named config.img as bleow:
+**Step2**: In the maintain page, attacker can get config informations and save into a file named config.img as bleow:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/8-1.png)
 
-Step3: Attacker can decode these base64-encoded objects, and get all informations including ***login account, password,*** and so on.
+**Step3**: Attacker can decode these base64-encoded objects, and get all informations including ***login account, password,*** and so on.
 
 ![image](https://github.com/leonW7/D-Link/blob/master/8-2.png)
