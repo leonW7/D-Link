@@ -20,7 +20,7 @@ An issue was discovered in the web manager interface on D-Link DIR-816 devices w
 POC
 -------------------------
 
-Step1: Attacker can visit /index.asp directly without authentication and get the maintain page in the manager interface immediately. The Details are as blew:
+Step1: Attacker can visit **/index.asp** directly without authentication and get the maintain page in the manager interface immediately. The Details are as blew:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/8.png)
 
