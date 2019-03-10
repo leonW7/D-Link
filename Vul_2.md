@@ -1,4 +1,4 @@
-# D-Link HNAP_Entry_Func CMD Injection 
+# DIR-823G HNAP_Entry_Func CMD Injection 
 Vulnerability for D-Link Router
 
 Product: D-Link DIR-823G  (Refer: http://www.dlink.com.cn/home/product?id=2960)
