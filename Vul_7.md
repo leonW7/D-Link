@@ -26,5 +26,5 @@ Normal manager interface:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/7-2.png)
 
-http://192.168.0.1/index.asp:
+Visit http://192.168.0.1/index.asp without authentication:
 ![image](https://github.com/leonW7/D-Link/blob/master/7-3.png)
