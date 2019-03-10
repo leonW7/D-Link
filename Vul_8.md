@@ -1,17 +1,17 @@
 # D-Link DIR-816 Manager Interface InfoLeak
-Vendor: D-Link
+**Vendor**: D-Link
 
-Product: [DIR-816](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
+**Product**: [DIR-816](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
 
-Firmware Version: The latest firmware [Rev.A2 1.10B05](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
+**Firmware Version**: The latest firmware [Rev.A2 1.10B05](http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
 
 ![image](https://github.com/leonW7/D-Link/blob/master/7.PNG)
 
-Vulnerability Type: Incorrect Access Control
+**Vulnerability Type**: Incorrect Access Control
 
-Author: David Chen
+**Author**: David Chen
 
-Institution: 360 ESG Institute of Security Research (360ESGR)
+**Institution**: 360 ESG Institute of Security Research (360ESGR)
 
 Vulnerability description
 -------------------------
@@ -20,7 +20,7 @@ An issue was discovered in the web manager interface on D-Link DIR-816 devices w
 POC
 -------------------------
 
-Step1: Attacker can visit /index.asp directly without authentication and get the maintain page in the manager interface of the router immediately. The Details are as blew:
+Step1: Attacker can visit /index.asp directly without authentication and get the maintain page in the manager interface immediately. The Details are as blew:
 
 ![image](https://github.com/leonW7/D-Link/blob/master/8.png)
 
