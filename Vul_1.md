@@ -1,4 +1,4 @@
-# D-Link GetNetworkTomographyResult CMD Injection
+# DIR-823G GetNetworkTomographyResult CMD Injection
 Vulnerability for D-Link Router
 
 Product: D-Link DIR-823G  (Refer: http://www.dlink.com.cn/home/product?id=2960)
