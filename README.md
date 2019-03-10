@@ -8,7 +8,7 @@ Product:
   The latest firmware -- A1 1.02B03 (http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-823G)
 
 * DIR-816  (http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
-  The latest firmware -- A2 1.02B03 (http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
+  The latest firmware -- A2 1.10B05 (http://support.dlink.com.cn/ProductInfo.aspx?m=DIR-816)
 
 Types: RCE、InfoLeak、DoS、EoP
 
