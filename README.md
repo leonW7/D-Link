@@ -25,6 +25,6 @@ Institution: 360 ESG Institute of Security Research (360 ESGR)
 
 Some unverified issues on DIR-816
 
-[No1](./Vul_7.md)
+* [No1](./Vul_7.md)
 
-[No2](./Vul_8.md)
+* [No2](./Vul_8.md)
