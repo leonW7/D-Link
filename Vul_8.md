@@ -11,7 +11,7 @@
 
 **Author**: David Chen
 
-**Institution**: 360 ESG Institute of Security Research (360ESGR)
+**Institution**: Technology Research Institute of Legendsec at Qi’anxin Group
 
 Vulnerability description
 -------------------------
