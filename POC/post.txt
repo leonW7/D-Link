@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<SetWebFilterSettings>
+ <WebFilterMethod>DENY</WebFilterMethod>
+ <NumberOfEntry>2</NumberOfEntry>
+ <WebFilterURLs>
+  <string>www.baidu.com</string>
+ <string>www.shohu.com`telnetd`</string></WebFilterURLs>
+</SetWebFilterSettings>
+</soap:Body>
+</soap:Envelope>
