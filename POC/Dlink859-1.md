@@ -15,7 +15,7 @@ Institution: Technology Research Institute of Legendsec at Qi'anxin Group
 
 Vulnerability description
 -------------------------
-An issue was discovered on D-Link DIR-859 devices with firmware through 1.06B01. A command Injection vulnerability allows attackers to execute arbitrary OS commands via shell metacharacters in a crafted /HNAP1 request. This occurs when the SetWebFilterSettings function calls the system function with an untrusted input parameter named WebFilterURLs. Consequently, an attacker can execute any command remotely when they control this input. The details are as below:
+An issue was discovered on D-Link DIR-859 devices with the latest firmware version 1.06B01. A command Injection vulnerability allows attackers to execute arbitrary OS commands via shell metacharacters in a crafted /HNAP1 request. This occurs when the SetWebFilterSettings function calls the system function with an untrusted input parameter named WebFilterURLs. Consequently, an attacker can execute any command remotely when they control this input.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
