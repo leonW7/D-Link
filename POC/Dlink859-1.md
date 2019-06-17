@@ -1,4 +1,4 @@
-# DIR-859 CMD Injection
+# DIR-859 SetWebFilterSettings CMD Injection
 Vulnerability for D-Link Router
 
 Product: D-Link DIR-859  (Refer: http://www.dlink.com.cn/home/product?id=2960)
@@ -15,7 +15,7 @@ Institution: Technology Research Institute of Legendsec at Qi'anxin Group
 
 Vulnerability description
 -------------------------
-An issue was discovered on D-Link DIR-859 devices with firmware through 1.06B01. A command Injection vulnerability allows attackers to execute arbitrary OS commands via shell metacharacters in a crafted /HNAP1 request. This occurs when the WebFilterMethod function calls the system function with an untrusted input parameter named WebFilterURLs. Consequently, an attacker can execute any command remotely when they control this input. The details are as below:
+An issue was discovered on D-Link DIR-859 devices with firmware through 1.06B01. A command Injection vulnerability allows attackers to execute arbitrary OS commands via shell metacharacters in a crafted /HNAP1 request. This occurs when the SetWebFilterSettings function calls the system function with an untrusted input parameter named WebFilterURLs. Consequently, an attacker can execute any command remotely when they control this input. The details are as below:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -48,15 +48,15 @@ Step1: Attacker need to call "SetWebFilterSettings" fuction that setting "WebFil
 ![image](5.jpg)
 
 
-Step2: To modify the "WebFilterURLs" value, Attacker need to intercpet at BurpSuite after they type "Save" button, and insert command "telnetd" to the parameter as below:
+Step2: To modify the "WebFilterURLs" value, Attacker need to intercpet the POST action at BurpSuite after they type "Save" button, and insert command "telnetd" to the parameter as below:
 
 ![image](1.png)
 
-Step3: After sending POST packet as above, this PoC can result in a RCE that executes a "telnetd" command at router as below:
+Step3: After sending POST packet as above, this action can result in a RCE that executes a "telnetd" command at router as below:
 
 ![image](4.png)
 
-After that, command has already been added to the URLs, you can't do this at web page directly.
+After that, the command has already been added to the URLs:
 
 ![image](2.png)
 
