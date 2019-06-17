@@ -5,7 +5,7 @@ Product: D-Link DIR-859  (Refer: http://www.dlink.com.cn/home/product?id=2960)
 
 Version: The latest firmware -- 1.06B01 (Download link: https://support.dlink.com/productinfo.aspx?m=DIR-859)
 
-![image](3.png)
+![image](3.PNG)
 
 Vulnerability Type: Command Injection
 
