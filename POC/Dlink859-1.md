@@ -56,8 +56,4 @@ Step3: After sending POST packet as above, this action can result in a RCE that 
 
 ![image](4.png)
 
-After that, the command has already been added to the URLs:
-
-![image](2.png)
-
 P.S. Given the vendor's security, we only provide parts of this exploit.
