@@ -24,7 +24,7 @@ DIR-823:
 * [CVE-2019-7390](./Vul_5.md) Incorrect Access Control
 * [CVE-2019-8392](./Vul_6.md) Incorrect Access Control
 
-## D-Link
+DIR-878：
 
 * [CVE-2019-8312](./878/syslog.md) Command Injection
 * [CVE-2019-8313](./dlink/DIR-878/firewallv6.md) Command Injection
