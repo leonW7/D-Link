@@ -15,7 +15,7 @@ Author: David Chen
 
 Institution: Technology Research Institute of Legendsec at Qi’anxin Group
 
-DIR-823:
+DIR-823G:
 
 * [CVE-2019-7297](./Vul_1.md) Command Injection
 * [CVE-2019-7298](./Vul_2.md) Command Injection
