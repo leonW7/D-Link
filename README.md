@@ -37,10 +37,10 @@ DIR-878：
 
 DIR-816:
 
-* [CNVD-2019-23091](./Vul_7.md)
+* [CNVD-2019-23091](./Vul_7.md) Incorrect Access Control
 
 * [NO.2](./Vul_8.md)
 
 DIR-859
 
-* [CNVD-2019-23090](./POC/Dlink859-1.md)
+* [CNVD-2019-23090](./POC/Dlink859-1.md) Command Injection
