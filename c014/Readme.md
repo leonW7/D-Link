@@ -1,7 +1,7 @@
 ## D-Link Routers Command Injection
 ### Info
 Demo product: D-Link DIR-878 (Refer: [https://support.dlink.com/productinfo.aspx?m=DIR-878](https://support.dlink.com/productinfo.aspx?m=DIR-878))  
-Version: The latest firmware -- 1.20 (Refer: [https://support.dlink.com/productinfo.aspx?m=DIR-878](https://support.dlink.com/productinfo.aspx?m=DIR-878))  
+Version: The latest firmware -- 1.20B05 (Refer: [https://support.dlink.com/productinfo.aspx?m=DIR-878](https://support.dlink.com/productinfo.aspx?m=DIR-878))  
 ![](./pics/1.png)
 ![](./pics/2.png)
 Vulnerability Type: Command Injection  
