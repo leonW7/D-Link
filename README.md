@@ -11,10 +11,6 @@ Product and Firmware Version:
 
 Types: RCE、InfoLeak、DoS、EoP
 
-Author: David Chen
-
-Institution: Technology Research Institute of Legendsec at Qi’anxin Group
-
 DIR-823G:
 
 * [CVE-2019-7297](./Vul_1.md) Command Injection
