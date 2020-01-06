@@ -36,7 +36,7 @@ The authentication of admin login is two-step challenge-response authentication.
 
 If a secret parameter `PrivateLogin=Username` is added when requesting for the challenge, the server will change admin password in this session. Then attackers can use fake password to pass the second step, and gain the privilege of admin.
 
-Refer to [backdoor.py](./backdoor.py) for more details. In this script, we try to to login with a fake password by both normal way and backdoor way, and then try to access some information. Only the backdoor way will succeed.
+Refer to [backdoor.py](./backdoor.py) for more details. In this script, we try to login with a fake password by both normal way and backdoor way, and then try to access some information. Only the backdoor way will succeed.
 
 ![1](pics/1.png)
 
