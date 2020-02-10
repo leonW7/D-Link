@@ -7,7 +7,7 @@ Version: The latest firmware -- 1.02B03 (Download link: http://support.dlink.com
 
 ![image](https://github.com/leonW7/D-Link/blob/master/4.png)
 
-Vulnerability Type: Command Injection
+The Class of Vulnerability: Command Injection
 
 Author: David Chen
 
